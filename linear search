@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int[] arr={23,7,47,90,27};
+		int key=279;
+		int i=0;
+		while(i<arr.length){
+		    if(key==arr[i]){
+		        System.out.print("present in "+i+"th"+" position");
+		        break;
+		    }
+		    i=i+1;
+		}
+		if(i==arr.length){
+		    System.out.print( key+" not present");
+		}
+	}
+}
